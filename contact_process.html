@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+</head>
+<body>
+	<form action="contact_process.php" method="post">
+		<label for="name">Name</label>
+		<input id="name" name="name" type="text" required>
+
+		<label for="email">Email</label>
+		<input id="email" name="email" type="email" required>
+
+		<label for="number">Phone number</label>
+		<input id="number" name="number" type="tel">
+
+		<label for="subject">Subject</label>
+		<input id="subject" name="subject" type="text" required>
+
+		<label for="message">Message</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<button type="submit">Send message</button>
+	</form>
+</body>
+</html>

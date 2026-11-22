@@ -1,22 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
+/*===========
 Table of Content:
 01/ Variables
 02/ predefin
@@ -67,7 +49,7 @@ body {
   color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Lato";
   font-weight: bold; }
 
 button:focus {
@@ -123,7 +105,7 @@ button:focus {
     max-width: 570px;
     margin: auto; }
   .main_title.white h2 {
-    color: #fff; }
+    color: #ffffff; }
   .main_title.white p {
     color: #fff;
     opacity: .6; }
